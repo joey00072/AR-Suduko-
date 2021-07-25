@@ -10,7 +10,7 @@ model = Model(1, 10)
 
 model.load_state_dict(torch.load("model.pt"))
 
-use_ipwebcam = True
+use_ipwebcam = False
 if use_ipwebcam:
     video_url = "http://192.168.43.1:8080/video"
 else:
